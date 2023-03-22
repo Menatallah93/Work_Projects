@@ -1,0 +1,33 @@
+.container{
+    margin: 1px 50px;
+}
+
+.container img{
+    height: 50vh;
+}
+
+.text-center{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-resizr{
+    width: 30%;
+}
+
+.img-resizr p,
+.img-resizr button{
+    text-align: left;
+}
+
+.img-resizr button{
+    margin-bottom: 15px;
+}
+
+.rounded-circle{
+    margin-bottom: 10px;
+}
+
+.text-center{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,376 @@
+/* Start Banner section */
+.banner{
+    padding: 10px 0;
+    height: 700px;
+    background: url(../img/background-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+header .logo{
+    font-size: 24px;
+    font-family: Viner Hand ITC;
+    font-weight: lighter;
+}
+
+.nav-menue {
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+ul li {
+    display: none;
+    margin-right: 35px;
+}
+
+.nav-menue ul li.no-margin {
+    margin-right: 0;
+}
+
+.nav-menue ul li a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon {
+    display: block;
+    font-size: 32px;
+}
+
+header .logo .font-fam{
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+header .white-txt svg{
+    font-size: 25px;
+}
+
+.banner .welcome-msg{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    width: 95%;
+    font-family: cursive;
+    padding: 20px 0;
+}
+
+.welcome-msg h3{
+    margin: 5px 0;
+} 
+/* End Banner section */
+/* Start Life Style section */
+.life-style{
+    padding: 60px 0;
+}
+
+.life-style .right-txt svg{
+    font-size: 25px;
+    margin-right: 13px;
+}
+
+.life-style .right-txt .more-feat{
+    margin: 20px 0;
+}
+
+.life-style .right-txt .dif-button{
+    margin: 5px 0;
+}
+
+.life-style .left-img {
+    background: url(../img/life-style.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+/* End Life Style section */
+/* Start Winter Nature section */
+.winter-nature{
+    padding: 50px 0px;
+    background-color:#F5F5F8;
+}
+
+.winter-nature p{
+    margin: 10px 0;
+}
+
+.winter-nature .photo,
+.winter-nature .photo1,
+.winter-nature .photo2,
+.winter-nature .photo3,
+.winter-nature .photo4{
+    height: 400px; 
+    margin-top: 20px;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.photo:hover .overlay-box,
+.photo1:hover .overlay-box,
+.photo2:hover .overlay-box,
+.photo3:hover .overlay-box,
+.photo4:hover .overlay-box{
+    top: 0%;
+}
+
+.winter-nature .overlay-item{
+    width: 95%;
+    margin: auto;
+    top: 65%;
+}
+
+.winter-nature .photo{
+    background: url(../img/nature3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.winter-nature .photo1{
+    background: url(../img/nature4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.winter-nature .photo2{
+    background: url(../img/nature.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.winter-nature .photo3{
+    background: url(../img/nature2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.winter-nature .photo4{
+    background: url(../img/nature5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.winter-nature .nature-butt{
+    margin: 5px 0;
+}
+/* Ead Winter Nature section */
+/* Start Cantry Winter section */
+.contry-winter{
+    padding: 60px 0;
+}
+
+.contry-winter .margin-prag,
+.contry-winter .town-prag .marg{
+    margin: 30px 0;
+}
+
+.contry-winter .top-margin{
+    margin: 20px 0;
+}
+
+.contry-winter .margin {
+    margin: 15px 0;
+}
+
+.contry-winter .town-item img{
+    height: 200px;
+    width: 95%;
+    margin-top: 7px;
+}
+
+.contry-winter .town-prag{
+    padding: 0 20px;
+}
+
+.contry-winter .town{
+    background-color: #227cb3;
+    height: 500px;
+}
+
+.svg-margin svg{
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+/* End Cantry Winter section */
+/* Start Animal section */
+.animal{
+    padding: 20px 0;
+}
+
+.animal .img img,
+.animal .img1 img{
+    background-position: center center;
+    width: 40%;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.animal .img1 img{
+    margin-right: 5px;
+}
+
+.animal .img,
+.animal .img1{
+    align-items: center;
+}
+
+.animal .mar{
+    margin-top: 20px;
+}
+.animal .prag{
+    margin: 20px 0;
+}
+
+.animal .margin-butt{
+    margin-bottom: 40px;
+    height: 400px;
+}
+
+.praga,
+.margin-word{
+    margin-top: 20px;
+}
+
+/* End Animal section */
+/* Start footer section */
+footer{
+    padding: 20px 0;
+    background-color: #2E8BC0;
+}
+
+footer .background{
+    font-size: 24px;
+    font-family: Viner Hand ITC;
+    font-weight: lighter;
+}
+
+footer .background .nav-menue {
+    margin: auto;
+    font-size: 45px;
+}
+
+footer .back-color{
+    background-color: #167CAC;
+}
+
+footer .fist{
+    width: 300px;
+    height: 40px;
+    padding: 6px 12px;
+}
+
+footer .button-dif{
+    width: 33.333%;
+    margin: 0;
+    border: 2px solid #00B0F0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #00B0F0;
+}
+
+footer .margin{
+    margin-top: 10px;
+}
+
+
+/* End footer section */
+@media(min-width:280px){
+    button{
+        width: 40%;
+    }
+    footer .fist{
+    width: 250px;
+    }
+    footer .button-dif{
+    margin-top: 10px;
+    width: 30%;
+}
+}
+@media(min-width:576px){
+    .animal .img img{
+    width: 20%;
+}
+}
+@media(min-width:768px){
+    .cont{
+        width: 77%;
+    }
+    .banner .welcome-msg{
+        width: 55%;
+        left: 25%;
+        top: 30%;
+}
+    
+    .banner .welcome-msg h2{
+        font-size: 36px;
+}
+    .banner .welcome-msg h3{
+        font-size: 34px;
+}
+    .life-style .left-img{
+        height:auto;
+    }
+    footer ul li {
+    display: inline-block;
+}
+     footer .icon{
+        display: none;
+    }
+    footer .fist{
+    width: 400px;
+}
+
+footer .button-dif{
+    width: 22%;
+}
+}
+@media(min-width:992px){
+     ul li {
+    display: inline-block;
+}
+     .icon{
+        display: none;
+    }
+}
+@media(min-width:1200px){
+    .banner .welcome-msg{
+        left: 20%;
+}
+    .winter-nature .photo,
+    .winter-nature .photo1{
+        margin-bottom: 10px;
+}
+    h2 {
+        font-size: 36px;
+}
+    h3{
+        font-size: 32px;
+}
+    p{
+        font-size: 17px;
+}
+    
+    .contry-winter .town{
+    height: 570px;
+}
+}
+
+
+
+

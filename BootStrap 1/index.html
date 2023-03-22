@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Card</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="text-center">
+
+
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <i class="fa-sharp fa-solid fa-rocket mt-2  mr-1 text-info" style="font-size: 25px"></i>
+            <h3 class="navbar-brand" style="font-weight: bold; font-size: 30px;">HOSTO</h3>
+        </a>
+        
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active mr-3" style="font-size: 20px;" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-3" style="font-size: 20px;" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-3" style="font-size: 20px;" href="#">Link</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<div id="demo" class="carousel slide col-xs-9" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/0e23697d8af014876b958e81b96aa449.jpg" alt="Los Angeles" class="d-block"
+                style="width:100%; height: 80vh;">
+        </div>
+        <div class="carousel-item">
+            <img src="img/204afafb0b11942d4c94f310c595d0d2.jpg" alt="Chicago" class="d-block" style="width:100%; height: 80vh;">
+        </div>
+        <div class="carousel-item">
+            <img src="img/6d9cd44718eb9af6fb229ca97e1caf8f.jpg" alt="New York" class="d-block"
+                style="width:100%; height: 80vh;">
+        </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+    <div class="card-group">
+        <div class="card d-lg-block d-md-none d-sm-none  mt-3 mb-5 ml-5 p-3 bg-info ">
+            <div class="card-body text-white">
+                <i class="fa-regular fa-thumbs-up mt-4" style="font-size: 40px"></i>
+                <h3 class="mt-5 mb-3">Lorem, ipsum dolor</h3>
+                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur eveniet nesciunt explicabo aspernatur ut, iusto
+                    asperiores expedita! Repellendus deleniti exercitationem
+                    dolor sequi, culpa iste est?</p>
+            </div>
+        </div>
+
+        <div class="card mt-3 mb-5 p-3 bg-info ">
+            <div class="card-body text-white ">
+                <i class="fa-sharp fa-solid fa-rocket mt-4" style="font-size: 40px"></i>
+                <h3 class="mt-5 mb-3">Lorem, ipsum dolor</h3>
+                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur eveniet nesciunt explicabo aspernatur ut, iusto
+                    asperiores expedita! Repellendus deleniti exercitationem
+                    dolor sequi, culpa iste est?</p>
+            </div>
+        </div>
+
+        <div class="card mt-3 mb-5 mr-5 p-3  bg-info">
+            <div class="card-body  text-white ">
+                <i class="fa-sharp fa-solid fa-coins mt-4" style="font-size: 40px"></i>
+                <h3 class="mt-5 mb-3">Lorem, ipsum dolor</h3>
+                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur eveniet nesciunt explicabo aspernatur ut, iusto
+                    asperiores expedita! Repellendus deleniti exercitationem
+                    dolor sequi, culpa iste est?</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div>
+        <h2 class="text-center">HOSTO <span class="text-info">Plans </span> & <span class="text-info">Pricing</span>
+        </h2>
+        <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, sit.</p>
+
+        <hr>
+
+        <div id="generic_price_table" class="container text-center">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="card mr-2 col-xs-4 ">
+                            <div class="card-header p-3 mb-2 bg-info text-white"><h4>Lorem, ipsum dolor</h4></div>
+                            <div class="card-body">
+
+                                <div class="generic_content clearfix">
+
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_price_tag clearfix">
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">199</span>
+                                                <span class="cent">.45</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>2GB</span> Bandwidth</li>
+                                            <li><span>150GB</span> Storage</li>
+                                            <li><span>12</span> Accounts</li>
+                                            <li><span>7</span> Host Domain</li>
+                                            <li><span>24/7</span> Support</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer p-3 mb-2 bg-info text-white">BUY NOW</div>
+                        </div>
+
+                        <div class="card mr-2 col-xs-4">
+                            <div class="card-header p-3 mb-2 bg-info text-white"><h4>Lorem, ipsum dolor</h4></div>
+                            <div class="card-body ">
+                                <div class="generic_content active clearfix">
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_price_tag clearfix">
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">199</span>
+                                                <span class="cent">.99</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>2GB</span> Bandwidth</li>
+                                            <li><span>150GB</span> Storage</li>
+                                            <li><span>12</span> Accounts</li>
+                                            <li><span>7</span> Host Domain</li>
+                                            <li><span>24/7</span> Support</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="card-footer p-3 mb-2 bg-info text-white">BUY NOW</div>
+                        </div>
+
+                        <div class="card mr-2 col-xs-4">
+                            <div class="card-header p-3 mb-2 bg-info text-white"><h4>Lorem, ipsum dolor</h4></div>
+                            <div class="card-body">
+                                <div class="generic_content clearfix">
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_price_tag clearfix">
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">299</span>
+                                                <span class="cent">.99</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>2GB</span> Bandwidth</li>
+                                            <li><span>150GB</span> Storage</li>
+                                            <li><span>12</span> Accounts</li>
+                                            <li><span>7</span> Host Domain</li>
+                                            <li><span>24/7</span> Support</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card-footer p-3 mb-2 bg-info text-white">BUY NOW</div>
+                        </div>
+
+                        <div class="card col-xs-4 ">
+                            <div class="card-header p-3 mb-2 bg-info text-white"><h4>Lorem, ipsum dolor</h4></div>
+                            <div class="card-body">
+
+                                <div class="generic_content clearfix">
+
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_price_tag clearfix">
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">390</span>
+                                                <span class="cent">.05</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>2GB</span> Bandwidth</li>
+                                            <li><span>150GB</span> Storage</li>
+                                            <li><span>12</span> Accounts</li>
+                                            <li><span>7</span> Host Domain</li>
+                                            <li><span>24/7</span> Support</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer p-3 mb-2 bg-info text-white">BUY NOW</div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <h1 class="col-12 ml-2">KEY FEATURES OF <p class="text-info" id="highligh">HOSTS</p></h1>
+        <div class="row p-3 ml-5">
+            <div class="card mr-3" style="width: 20rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary" style="margin-top: 10px;">Go somewhere</a> 
+                  <img src="img/download.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="card mr-3" style="width: 20rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary" style="margin-top: 10px;">Go somewhere</a>
+                  <img src="img/Analytics Spot Hero Illustration.png" class="rounded-circle" alt="...">
+                </div>
+              </div>
+              <div class="card mr-3" style="width: 20rem;">
+               
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary" style="margin-top: 10px;">Go somewhere</a>
+                  <img src="img/Cestino della spesa con il cibo_ concetto di acquisto di consegna del formaggio dei maccheroni del vino della frutta del latte di salsiccia _ Vettore Premium.jpg" class="rounded-circle" >
+                </div>
+              </div>
+        </div>
+       
+        <div class="row p-3 ml-5" >
+            <div class="card mr-3" style="width: 20rem;" >
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary"  style="margin-top: 10px;">Go somewhere</a>
+                  <img src="img/Frete Grátis no mesmo dia.jpg"class="rounded-circle"alt="...">
+                </div>
+              </div>
+              <div class="card mr-3" style="width: 20rem;">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary"  style="margin-top: 10px;">Go somewhere</a>
+                  <img src="img/Lenovo Flex 5 14_ 2-in-1 Touchscreen Customized Laptop _ 6-Core AMD Ryzen 5 4500U _ 16GB DDR4 RAM 512GB  SSD _ Full HD IPS _ Backlit Keyboard _ Windows 10 _ Digital Pen Included _ Grey - Newegg_com.png" class="rounded-circle"alt="...">
+                </div>
+              </div>
+              <div class="card mr-3" style="width:20rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary"  style="margin-top: 10px;">Go somewhere</a>
+                  <img src="img/Thin Line Flat Design Creative Designer Stock Vector (Royalty Free) 279072260 _ Shutterstock.jpg" class="rounded-circle" alt="...">
+                </div>
+              </div>
+        </div>
+        <fieldset disabled>
+            <div class="row p-4 ml-5"  >
+                <div class="card  mr-2" style="width:10rem; height: 5rem; justify-content: center;"><a class="nav-link disabled" href="#">HTML</a></div>
+                <div class="card  mr-2" style="width:10rem; height: 5rem; justify-content: center;"><a class="nav-link disabled" href="#">JAVA</a></div>
+                <div class="card  mr-2" style="width:10rem; height: 5rem; justify-content: center;"><a class="nav-link disabled" href="#">PYTHON</a></div>
+                <div class="card  mr-2" style="width:10rem; height: 5rem; justify-content: center;"><a class="nav-link disabled" href="#">CSS</a></div>
+                <div class="card  mr-2" style="width:10rem; height: 5rem; justify-content: center;"><a class="nav-link disabled" href="#">JQUERY</a></div>
+                <div class="card " style="width:10rem; height: 5rem; justify-content: center;"><a class="nav-link disabled" href="#">PHP</a></div>
+                </div>
+            </div>
+        </fieldset>
+        
+        
+   
+  
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-3">
+          <section class="mb-4">
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <section>
+            <form action="">
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example21" class="form-control" />
+                    <label class="form-label" for="form5Example21">Email address</label>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+          <section class="mb-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+              repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+              eum harum corrupti dicta, aliquam sequi voluptate quas.
+            </p>
+          </section>
+          <section>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+      </footer>
+</body>
+
+</html>

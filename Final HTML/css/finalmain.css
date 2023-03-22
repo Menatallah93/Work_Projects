@@ -1,0 +1,569 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Start Global classes */
+
+.body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.p{
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cont{
+    width: 75%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    z-index: -1;
+}
+
+.overlay-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    z-index: -1;
+}
+
+:root{
+    --primary-color:rgba(13, 110, 139, 0.75);
+    --overlay-color:rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+/* End Global classes */
+
+/* Start information bar */
+
+.information-bar {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Start Communicate bar */
+
+.information-bar .Communicate{
+    padding: 0.5% 0;
+}
+
+.information-bar .Communicate h4 {
+    margin-right: 3%;
+    display: inline-block;
+}
+
+/* End Communicate bar */
+
+/*  Start Logo bar */
+
+.information-bar .logo-bar{
+    padding: 0.5% 0;
+    background-color: #5995ED;
+}
+
+/*  End Logo bar */
+
+/*  Start Navbar Section */
+
+.top-bar{
+    background-color: #000;
+    text-align: center;
+}
+
+.active{
+    display: inline-block;
+}
+
+.top-bar ul li{
+    padding: 1% 1%;
+    border-right: 2px solid #fff;
+}
+
+ul li.no-border,
+ul li.no-border-1{
+    border-right: none;
+}
+
+.top-bar ul a{
+    color:white;
+    font-size: 16px;
+}
+
+.top-bar ul li:hover{
+    background-color:#7BABF1;
+    border-radius: 3px;
+}
+
+.top-bar ul li.no-border-1:hover{
+    background-color:#000;
+}
+
+.sub-menu{
+    background-color: #000;
+    color:white;
+    padding: 3px 0px;
+    text-align: center;
+    border-color: transparent;
+    font-size: 12px;
+}
+
+.sub-menu:hover{
+   background-color:#7BABF1;
+    border-radius: 3px; 
+}
+
+.input-with-icon{
+    position: relative;
+}
+
+.input-with-icon svg{
+    position: absolute;
+    left: 80%;
+    top: 15%;
+    color: #fff;
+    font-size: 22px;
+    padding-left: 4px;
+}
+
+/*  End Navbar Section*/
+
+/*  Start Banner Section*/
+
+.banner{
+    background: url('../img/pexels-mike-120049.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 80vh; 
+    position: relative;
+    z-index: 0;
+}
+
+.banner .services-repair,
+.banner .Enquiry-section{
+    color: white;
+    float: left;
+    width: 48%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    font-size: 18px;
+}
+
+.relative-cont{
+    position: relative;
+    height: 100%;
+    width: 65%
+}
+
+.banner .services-repair h1,
+.banner .Enquiry-section h3{
+    font-size: 40px;
+    letter-spacing: 1px;
+
+}
+
+.banner .services-repair p,
+.banner .Enquiry-section p{
+    margin-top: 2%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.banner .services-repair button,
+.banner .Enquiry-section button{
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    border: 1.5px solid #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.banner .Enquiry-section{
+    top: 20%;
+    left: 60%;
+}
+
+.contain{
+    padding: 20px;
+}
+
+.banner .Enquiry-section p{
+    margin-bottom: 15px;
+}
+
+.banner .Enquiry-section input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+.banner .Enquiry-section .second{
+    margin: 15px 0;
+}
+
+.banner .Enquiry-section button{
+    border-color: #5995ED;
+    background-color: #5995ED;
+}
+
+/*  End Banner Section*/
+
+/*  Start About Us Section*/
+
+.aboutus h1{
+    margin: 5% 0;
+    font-family: cursive;
+}
+
+.aboutus .right-pragraph,
+.aboutus .left-pragraph{
+    float: left;
+    width: 47.5%;
+    margin-right: 4%;
+}
+
+.aboutus .right-pragraph p,
+.aboutus .left-pragraph p{
+    color: gray;
+}
+
+.aboutus .left-pragraph.no-margin{
+    margin-right: 0px;
+}
+
+.aboutus .right-pragraph button{
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    border: 1.5px solid #fff;
+    text-transform: uppercase;
+    border-color: #5995ED;
+    background-color: #5995ED;
+    margin: 20px 0;
+}
+
+/*  End About Us Section*/
+
+/*  Start Why Us Section*/
+
+.why-us{
+    background-color: #000;
+    color: white;
+}
+
+.why-us h1{
+    padding: 5% 0;
+}
+
+.why-us .fair-affordable,
+.why-us .reputation,
+.why-us .experience{
+    float: left;
+    width: 26%;
+    margin-right:0.5%;
+    margin-bottom: 5%;
+    
+}
+
+.why-us .experience.no-margin{
+    margin-right: 0%;
+}
+
+.why-us .fair-affordable h2,
+.why-us .reputation h2,
+.why-us .experience h2{
+    margin-bottom: 20px;
+}
+
+.why-us .fair-affordable h2{
+    font-size: 22px;
+}
+
+.why-us .fair-affordable p,
+.why-us .reputation p,
+.why-us .experience p{
+    color: gray;
+}
+
+
+.why-us .font svg{
+    float: left; 
+    width: 7%;
+    padding-right: 10px;
+    font-size: 70px;
+    padding-top: 10px;
+    color: #5995ED;
+}
+
+/*  End Why Us Section*/
+
+/*  Start Our Service Section*/
+
+.Service{
+}
+
+.Service h1{
+    padding-top: 6.5%;
+    padding-bottom: 4%;
+    letter-spacing: 1px;
+    font-family: fantasy;
+    font-weight: lighter;
+
+}
+
+.Service h3{
+    font-size: 18px;
+    margin-bottom: 1%;
+    font-weight: lighter;
+    color: gray;
+}
+
+.Service .photo .picture1,
+.Service .photo .picture2,
+.Service .photo .picture3,
+.Service .photos .picture1,
+.Service .photos .picture2,
+.Service .photos .picture3{
+    height: 40vh;
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.Service .photo .picture1{
+    background: url('../img/daniil-lyusov-wtjNuMxMg8c-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Service .photo .picture2{
+    background: url('../img/395113-PCH2KS-774.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Service .photo .picture3{
+    background: url('../img/pexels-andrea-piacquadio-3807449.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Service .photo .picture3.no-margin{
+    margin-right: 0%;
+}
+
+.Service .photos .picture1{
+    background: url('../img/pexels-pixabay-279949.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Service .photos .picture2{
+    background: url('../img/pexels-andrea-piacquadio-3806249.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Service .photos .picture3{
+    background: url('../img/pexels-malte-luk-2244746.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Service .photos .picture3.no-margin{
+    margin-right: 0%;
+}
+
+.Service button{
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #5995ED;
+    border: 1.5px solid #fff;
+    text-transform: uppercase;
+    border-color: #5995ED;
+    margin: 3% 0;
+}
+
+/*  End Our Service Section*/
+
+/*  Start Footer Section*/
+
+.footer{
+    text-align: center;
+}
+
+.footer h3{
+    padding: 0.5% 0;
+    font-weight: lighter;
+    font-family:monospace;
+    font-size: 15px;
+    color: gray;
+
+}
+
+.footer svg{
+    color: #5995ED;
+    font-size: 25px;
+}
+
+.footer .icon svg{
+    margin-top: 0.5%;
+    color: gray;
+    margin-right: 0.5%;
+    padding: 0.5% 0;
+    font-size: 25px;
+
+    
+}
+
+@media(max-width:1200px){
+    .banner .services-repair{
+    top: 30%;
+}
+
+.banner .Enquiry-section{
+    width: 45%;
+    top: 7.5%;
+}
+}
+
+@media(max-width:992px){
+    
+.top-bar ul{
+    width: 100%;
+}
+
+.banner .services-repair,
+.banner .Enquiry-section{
+    width: 55%;
+}
+
+}
+
+@media(max-width:768px){
+ .cont{
+    width: 90%;
+}
+        
+.top-bar ul li{
+    display: none;
+}
+
+.banner .services-repair,
+.banner .Enquiry-section{
+    width: 48%;
+}
+
+.banner .Enquiry-section{
+    left: 50%;
+}
+    
+.aboutus .right-pragraph,
+.aboutus .left-pragraph{
+    width: 48.5%;
+    margin-right: 1.5%;
+}
+  
+.why-us .fair-affordable,
+.why-us .reputation,
+.why-us .experience{
+    width: 70%;
+}
+    
+.why-us .font svg{
+    width: 15%;
+    padding-top: 20px;
+}
+    
+.Service .photo .picture1,
+.Service .photo .picture2,
+.Service .photo .picture3,
+.Service .photos .picture1,
+.Service .photos .picture2,
+.Service .photos .picture3{
+    width: 97%;
+    float: none;
+    margin:2%;
+}
+    
+.footer h3{
+    font-size: 12px;
+}
+
+.footer h2,
+.footer svg{
+    font-size: 22px;
+}
+
+.footer .icon svg{
+    font-size: 22px;
+}
+    
+}
+
+@media(max-width:576px){ 
+    
+.banner .services-repair,
+.banner .Enquiry-section{
+    top: 20%;
+    width: 49%;
+}
+
+.banner .Enquiry-section{
+    top: 4%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

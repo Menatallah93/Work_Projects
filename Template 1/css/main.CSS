@@ -1,0 +1,567 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Start Global classes */
+
+.body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.p{
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cont{
+    width: 85%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    z-index: -1;
+}
+
+:root{
+    --primary-color:rgba(13, 110, 139, 0.75);
+    --overlay-color:rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+/* End Global classes */
+
+/* Start Header Section */
+
+.header{
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 9999999;
+    height: 60px;
+    background-color: #fff;
+}
+
+.header .logo{
+    float: left;
+    width: 15%;
+    font-size: 22px;
+    font-family:cursive;
+    text-transform: capitalize;
+}
+
+
+.header .navb{
+    width: 85%; 
+    
+}
+
+.navb svg{
+    text-align: right;
+    float: right; 
+}
+
+.header .navbar{
+    float: right;
+    width: 70%;
+}
+
+.header .navbar li{
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.header .navbar li.no-margin{
+    margin-right: 0;
+}
+
+.header .navbar li a{
+    color: #999;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header .navbar li a:hover{
+    color:#40BBEC;
+}
+
+/* End Header Section */
+
+/* Start Banner Section */
+
+.banner{
+    background: url('../img/pexels-riccardo-bresciani-300857.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px; 
+    position: relative;
+    z-index: 0;
+    margin-top: 60px;
+}
+
+.banner .welecom-msg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+}
+
+.banner .welecom-msg h1{
+    margin: 20px 0px; 
+    font-size: 40px;
+}
+
+.banner .welecom-msg button{
+    margin: 0px 10px;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #fff;
+    border: 1.5px solid #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 2px;
+}
+
+.banner .welecom-msg button:hover{
+    background:#1D8EFF;
+     border: 1.5px solid #1D8EFF;
+}
+
+/* End Banner Section */
+
+/* Start Qoute Section */
+
+.qoute {
+    background-color: #e6e9f3;
+    height: 82vh;
+    text-align: center;
+}
+
+.qoute h2{
+    text-transform: uppercase;
+    padding: 3% 0;
+    letter-spacing: 1.5px;
+}
+
+.qoute p{
+    width: 60%;
+    margin: auto;
+}
+
+
+.qoute .box .first{
+    text-transform:capitalize;
+    width:32%;
+    height: 45vh;
+    float: left;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 15px;
+    margin: 3% 0.5%; 
+}
+
+.box .first h4{
+    text-transform: uppercase;
+    margin: 20px 0px;
+    letter-spacing: 1px;
+}
+
+.box .first svg{
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #1879D2;
+}
+
+
+/* End Qoute Section */
+
+/* Start Clients Section */
+
+.clients{
+    text-align: center;
+    height: 75vh;
+    font-family:cursive;
+}
+
+.clients .inform{
+    width: 65%;
+    margin: auto;
+}
+
+.clients h2{
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.clients p{
+    margin-bottom: 15px;
+}
+
+.clients h5{
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.clients .photo .img{
+    height: 37vh;
+}
+
+.photo .img .box,
+.photo .img .box1,
+.photo .img .box2,
+.photo .img .box3{
+    height: 100%;
+    width:24%;
+    float: left;
+    margin: 10px 0.5%;
+}
+
+.clients .photo .box{
+    background: url('../img/pexels-emiliano-arano-1295138.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.clients .photo .box1{
+    background: url(../img/pexels-fabian-wiktor-994605.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.clients .photo .box2{
+    background: url(../img/pexels-pawel-kalisinski-1076758.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.clients .photo .box3{
+    background: url(../img/pexels-thach-tran-756856.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* End Clients Section */
+
+/* Start About Us Section */
+
+.aboutus{
+    height: 60vh;
+    background-color: #000;
+}
+
+.aboutus .contain{
+    width: 80%;
+    margin: auto;
+}
+
+.aboutus .contain .bonus,
+.aboutus .contain .contact{
+    color: #fff;
+    width: 48.5%;
+    float: left;
+    text-transform: capitalize;
+    font-family: cursive;
+    border: 2px solid #fff;
+    margin-top: 3%;
+    padding: 24px;
+    height: 50vh;
+}
+
+.aboutus .bonus{
+    text-align: center;
+    margin-right: 3%;
+}
+
+.aboutus .bonus h2{
+    margin: 5px 0px;
+}
+
+.aboutus .bonus p{
+    font-size: 16px;
+    padding: 8px 40px;
+}
+
+.aboutus .contact{
+    padding: 40px;
+}
+
+.aboutus .contact h2{
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 30px;
+}
+
+.aboutus .contact hr{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.aboutus .contact h3{
+    float: right;
+    font-size: 10px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aboutus .contact h3:hover{
+    color: #1879D2;
+}
+
+/* End About Us Section */
+
+/* Start Footer Section */
+
+.footer{
+    background-color: #2CB4C6;
+    height: 9vh;
+    color: #fff;
+    
+}
+
+.footer h3{
+    padding-top: 2%;
+    font-weight: lighter;
+    font-family:monospace;
+    float: left;
+    width: 50%;
+    font-size: 15px;
+}
+
+.footer svg{
+    float: left;
+    margin-right: 10px;
+    margin-top: 2%;
+}
+
+.footer .bass .margin-rigth{
+    margin-left: 35%;
+}
+
+.footer .bass .no-margin{
+    margin-right: 0;
+}
+
+/* End Footer Section */
+
+
+@media(max-width:1200px){
+    
+.header .navbar{
+    width: 80%;
+}
+    
+  .qoute .box{
+    width: 95%;
+}
+    
+.qoute .box .first,
+.qoute .box .second,
+.qoute .box .third{
+    height: 42vh;
+}
+
+.clients .photo .img{
+    height: 33vh;
+}
+    
+.aboutus .contain{
+    width: 90%;
+}
+}
+
+@media(max-width:992px){
+.cont{
+    width: 100%;
+}
+    
+.header .logo{
+    margin-left: 30px;
+}
+ 
+.qoute .box{
+    width: 80%;
+    margin: auto;   
+}
+    
+.qoute p{
+    width: 80%;
+}
+    
+.qoute .box .first,
+.qoute .box .second,
+.qoute .box .third{
+    height: 44vh;
+    
+}
+    
+.clients .inform{
+    width: 80%;
+}
+    
+.aboutus .contain .bonus,
+.aboutus .contain .contact{
+    height: 53vh;
+}
+    
+.aboutus .bonus p{
+    padding: 8px 30px;
+}
+    
+    .footer h3{
+        margin-left: 15px;
+    }
+}
+
+@media(max-width:768px){
+.header .logo{
+    width: 20%;
+    
+}
+.clients{
+    height: 103vh;
+}
+
+.clients .photo .img{
+    height: 30vh;
+}
+    
+.photo .img .box,
+.photo .img .box1,
+.photo .img .box2,
+.photo .img .box3{
+    width:45%;
+    margin: 1% 0.5%;
+}
+    
+.photo .img .box,
+.photo .img .box2{
+    margin-left: 5%;
+}
+    
+.aboutus .contain .bonus,
+.aboutus .contain .contact{
+    width: 48.5%;
+    margin-top: 3%;
+    padding: 10px;
+    height: 47vh;
+}
+    
+.aboutus .bonus p{
+    font-size: 14.5px;
+    padding: 8px 20px;
+}
+    
+.footer h3{
+    width: 60%;
+}
+
+.footer .bass .margin-rigth{
+    margin-left: 20%;
+}
+    
+}
+
+@media(max-width:576px){   
+
+.qoute {
+    height: 178vh;
+}
+    
+.qoute .box .first,
+.qoute .box .second,
+.qoute .box .third{
+    width:80%;
+    height: 42vh;
+    float: none;
+    margin: 2% 10%;
+    padding: 15px;
+}
+
+.clients{
+    height: 185vh;
+}
+    
+.clients .inform{
+    font-size: 15px;    
+}
+    
+.photo .img .box,
+.photo .img .box1,
+.photo .img .box2,
+.photo .img .box3{
+    height: 100%;
+    width:90%;
+    float: none;
+    margin: 10px 5%;
+}
+    
+.aboutus{
+    height: 115vh;
+}
+    
+    
+.aboutus .contain{
+      padding-top: 0.5%;
+    }
+    
+.aboutus .contain .bonus,
+.aboutus .contain .contact{
+    width: 100%;
+    float: none;
+    margin-top: 8%;
+    padding: 22px;
+    height: 50vh;
+}
+    
+.aboutus .bonus p{
+    font-size: 13px;
+}
+    
+.footer h3{
+    padding-top: 2%;
+    float: none;
+    width: 100%;
+    font-size: 13px;
+}
+    
+.footer svg{
+    float: none;
+}
+.footer .bass .margin-rigth{
+    margin-left: 5%;
+}
+    
+}
